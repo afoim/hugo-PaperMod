@@ -1,6 +1,7 @@
 ---
 title: "加群向导"
-date: "2025-05-23T16:00:00"
+date: "2099-01-01T00:00:00"
+weight: 1
 description: "关于如何联系二叉树树~"
 cover:
   image: img/cute.webp

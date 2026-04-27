@@ -1,3 +1,20 @@
 {{- /* Footer custom content area start */ -}}
-{{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+  if (!document.querySelector('pre.mermaid, pre > code.language-mermaid')) return;
+  document.querySelectorAll('pre > code.language-mermaid').forEach(function(el){
+    var pre = el.parentNode;
+    var div = document.createElement('pre');
+    div.className = 'mermaid';
+    div.textContent = el.textContent;
+    pre.parentNode.replaceChild(div, pre);
+  });
+  var s = document.createElement('script');
+  s.type = 'module';
+  s.textContent = "import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';" +
+    "const isDark = document.body.classList.contains('dark');" +
+    "mermaid.initialize({ startOnLoad: true, theme: isDark ? 'dark' : 'default', securityLevel: 'loose' });";
+  document.body.appendChild(s);
+});
+</script>
 {{- /* Footer custom content area end */ -}}

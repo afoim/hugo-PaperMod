@@ -91,9 +91,9 @@ cover:
 
 默认打开应该是空空如也，这边提供了一个起手式+LoRA的工作流，你可以直接导入：
 
-[点我下载- 基础起手.json](https://2x.nz/files/基础起手.json)
+[点我下载- 基础起手.json](https://e3.2x.nz/zh-CN/blog/%E5%9F%BA%E7%A1%80%E8%B5%B7%E6%89%8B.json)
 
-[点我下载- 基础起手+Lora.json](https://2x.nz/files/基础起手+Lora.json)
+[点我下载- 基础起手+Lora.json](https://e3.2x.nz/zh-CN/blog/%E5%9F%BA%E7%A1%80%E8%B5%B7%E6%89%8B%2BLora.json)
 
 下载之后，点击左上角的ComfyUI图标，打开这个工作流
 

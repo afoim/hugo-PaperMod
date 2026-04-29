@@ -17,6 +17,7 @@ env = "production"
 title = "二叉树树的博客"
 description = "Protect What You Love."
 defaultTheme = "auto"
+disableSpecial1stPost = true
 ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
@@ -32,10 +33,6 @@ favicon = "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0"
 favicon16x16 = "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0"
 favicon32x32 = "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0"
 apple_touch_icon = "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0"
-
-[params.homeInfoParams]
-Title = "Hi 👋"
-Content = "博客一定要能看文章✍️✍️✍️"
 
 [[menu.main]]
 identifier = "archives"

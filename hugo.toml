@@ -38,9 +38,9 @@ Title = "Hi 👋"
 Content = "博客一定要能看文章✍️✍️✍️"
 
 [[menu.main]]
-identifier = "posts"
-name = "文章"
-url = "/posts/"
+identifier = "archives"
+name = "归档"
+url = "/archives/"
 weight = 10
 
 [[menu.main]]

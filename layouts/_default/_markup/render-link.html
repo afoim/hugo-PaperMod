@@ -1,9 +1,9 @@
 {{- $url := .Destination -}}
 {{- $isExternal := or (strings.HasPrefix $url "http://") (strings.HasPrefix $url "https://") -}}
 {{- $isInternal := false -}}
-{{- with site.Params.mainSections -}}{{- end -}}
 {{- if $isExternal -}}
   {{- $host := urls.Parse $url -}}
-  {{- if eq $host.Host site.Hostname -}}{{- $isInternal = true -}}{{- end -}}
+  {{- $siteHost := urls.Parse site.BaseURL -}}
+  {{- if eq $host.Host $siteHost.Host -}}{{- $isInternal = true -}}{{- end -}}
 {{- end -}}
 <a href="{{ $url | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if and $isExternal (not $isInternal) }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Text | safeHTML }}</a>

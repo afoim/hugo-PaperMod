@@ -10,7 +10,7 @@
     other: "{{ .Count }} 分钟"
 
 - id: words
-  translation: 
+  translation:
     one: "字"
     other: "{{ .Count }} 字"
 
@@ -31,3 +31,39 @@
 
 - id: code_copied
   translation: "已复制！"
+
+- id: powered_by
+  translation: "由 Hugo 和 PaperMod 驱动"
+
+- id: go_to_top
+  translation: "回到顶部 (Alt + G)"
+
+- id: go_to_top_aria
+  translation: "回到顶部"
+
+- id: toggle_theme
+  translation: "切换主题"
+
+- id: search
+  translation: "搜索"
+
+- id: search_results
+  translation: "搜索结果"
+
+- id: draft
+  translation: "草稿"
+
+- id: post_link_to
+  translation: "文章链接："
+
+- id: share_on
+  translation: "分享到"
+
+- id: profile_image
+  translation: "头像"
+
+- id: logo
+  translation: "标志"
+
+- id: rss_feed
+  translation: "RSS 订阅"

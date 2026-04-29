@@ -15,15 +15,13 @@
     {{- end }}
 
     <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+        {{- i18n "powered_by" | default "Powered by Hugo & PaperMod" | safeHTML }}
     </span>
 </footer>
 {{- end }}
 
 {{- if (not site.Params.disableScrollToTop) }}
-<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+<a href="#top" id="top-link" class="top-link hidden" aria-label="{{ i18n "go_to_top_aria" | default "go to top" }}" title="{{ i18n "go_to_top" | default "Go to Top (Alt + G)" }}" accesskey="g">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
         stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
         <polyline points="17 11 12 6 7 11"></polyline>

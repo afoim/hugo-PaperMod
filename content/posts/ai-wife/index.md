@@ -242,7 +242,11 @@ WAI模型的一大特色就是支持直接通过Danbooru里已有的角色直接
 
 https://github.com/afoim/natureDrawImage
 
-通过在本地启动LM Studio（或Ollama，其他的在线LLM...），做 **中文 -> 英文 Tag** 的转换，最后再传给生图模型，即可实现 **纯中文的生图！** 
+> 推荐使用 Google AI Studio 里面的High思考级别的Gemma4。它的安全审查并不审查 **思维链** 所以...
+
+通过在本地启动LM Studio（或Ollama，其他的在线LLM...）
+
+让LLM做 **中文 -> 英文 Tag** 的转换，最后再传给生图模型，即可实现 **纯中文的生图！** 
 
 ### 搭建
 

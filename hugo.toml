@@ -52,8 +52,17 @@ name = "搜索"
 url = "/search/"
 weight = 30
 
+[[menu.main]]
+identifier = "rss"
+name = "RSS"
+url = "/rss.xml"
+weight = 40
+
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+
+[outputFormats.RSS]
+baseName = "rss"
 
 [markup]
 [markup.goldmark]

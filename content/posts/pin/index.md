@@ -10,7 +10,7 @@ cover:
 
 
 # 官方
-## Telegram群组
+## Telegram群
 
 [Telegram: Join Group Chat [2x.nz]](https://t.me/+_07DERp7k1ljYTc1)
 ## QQ群
